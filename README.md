@@ -156,28 +156,8 @@ Simulation completed!
 
 ## Technical Details
 
-- **Language**: Java 17
+- **Language**: Java 
 - **Build Tool**: Maven
 - **Testing Framework**: JUnit 5
 - **Display**: Unicode console output
 - **Architecture**: Object-oriented with clear separation of concerns
-
-## Contributing
-
-This is a recruitment test project. The code is designed to be:
-- **Readable**: Clear variable names and comprehensive comments
-- **Maintainable**: Well-structured classes and methods
-- **Testable**: Comprehensive unit test coverage
-- **Professional**: Industry-standard Java practices
-
-## License
-
-This project is created for recruitment purposes.
-
-## Author
-
-Created as part of a technical recruitment test for Studely Finance Cameroun.
-
----
-
-*"The Game of Life is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input."* - John Conway
