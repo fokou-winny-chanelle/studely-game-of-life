@@ -9,10 +9,10 @@ public class Grid {
     private boolean[][] cells;
     
     /**
-     * Unicode symbols for displaying cells
+     * ASCII symbols for displaying cells (compatible with all consoles)
      */
-    public static final String ALIVE_CELL = "⬛";
-    public static final String DEAD_CELL = "⬜";
+    public static final String ALIVE_CELL = "█";
+    public static final String DEAD_CELL = "░";
     
     /**
      * Default pattern from the test document
