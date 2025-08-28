@@ -54,8 +54,8 @@ public class GridTest {
         assertEquals(2, testGrid.countNeighbors(1, 2)); // Middle cell has 2 neighbors (1,1) and (1,3)
         assertEquals(1, testGrid.countNeighbors(1, 3)); // Right cell has 1 neighbor (1,2)
         
-        // Test corner cell - should be 0 since it's outside the pattern
-        assertEquals(0, testGrid.countNeighbors(1, 0)); // Should be 0 (outside pattern)
+        // Test corner cell - should be 1 since (1,1) is alive
+        assertEquals(1, testGrid.countNeighbors(1, 0)); // Should be 1 (neighbor at 1,1)
     }
     
     @Test
@@ -106,8 +106,8 @@ public class GridTest {
         assertEquals(1, grid.countNeighbors(0, 0)); // Corner cell
         // For the default pattern, edge cell (0,2) should have 2 neighbors (0,1) and (1,1)
         assertEquals(2, grid.countNeighbors(0, 2)); // Edge cell
-        // For the default pattern, edge cell (2,0) should have 0 neighbors
-        assertEquals(0, grid.countNeighbors(2, 0)); // Edge cell
+        // For the default pattern, edge cell (2,0) should have 1 neighbor (1,1)
+        assertEquals(1, grid.countNeighbors(2, 0)); // Edge cell
     }
     
     @Test
